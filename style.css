@@ -17,6 +17,7 @@ ul {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 /* header top part */
@@ -40,9 +41,6 @@ header {
     gap: 16px;
 }
 
-.header-top a {
-    color: black;
-}
 
 /* hero section */
 

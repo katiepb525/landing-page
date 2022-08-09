@@ -119,6 +119,7 @@ header a {
     height: 150px;
     border: solid black 3px;
     border-radius: 10px;
+    background-color: black;
 }
 
 .info .box img {

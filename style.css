@@ -116,6 +116,30 @@ header {
 }
 
 .info p {
+    margin-top: 5px;
     text-align: center;
     width: 100%;
+}
+
+/* testimonial */
+
+.testimonial {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-color: palevioletred;
+    height: 400px;
+}
+
+.testimonial #quote {
+    align-self: flex-start;
+    width: 500px;
+    font-size: 36px;
+}
+
+.testimonial #quote-from {
+    font-size: 22px;
+    align-self: flex-end;
+    font-weight: bold;
 }

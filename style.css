@@ -149,3 +149,32 @@ header {
     align-self: flex-end;
     font-weight: bold;
 }
+
+/* buy moths now */
+
+.buy-now {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buy-now .container {
+    margin: 50px;
+    padding: 25px 100px;
+    background-color: lavender;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buy-now .description {
+    width: 50%;
+}
+
+.buy-now button {
+    align-self: center;
+    padding: 5px 20px;
+    border-radius: 5px;
+}

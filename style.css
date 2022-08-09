@@ -64,6 +64,8 @@ header {
 .header-hero img {
     width: 350px;
     height: 100%;
+    border-radius: 10px;
+    border: 5px black solid;
 }
 
 .header-hero button {

@@ -16,7 +16,7 @@ ul {
 }
 
 
-/* header */
+/* header top part */
 
 header {
     display: flex;
@@ -38,7 +38,10 @@ header {
     gap: 16px;
 }
 
-.header-welcome {
+
+/* hero section */
+
+.header-hero {
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -46,21 +49,70 @@ header {
     gap: 40px;
 }
 
-.header-welcome h2 {
+.header-hero h2 {
     font-size: 38px;
 }
 
-.header-welcome div {
+.header-hero div {
     width: 350px;
 }
 
-.header-welcome img {
+.header-hero img {
     width: 350px;
     height: 100%;
 }
 
-.header-welcome button {
+.header-hero button {
     padding: 10px;
     border-radius: 10px;
     margin-top: 10px;
+}
+
+/* info */
+
+.info {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    gap: 28px;
+}
+
+.info h2 {
+    font-size: 28px;
+}
+
+/* info: gallery */
+
+.info ul {
+    display: flex;
+    gap: 18px;
+
+}
+
+.info li {
+    display: flex;
+    flex-flow: column;
+    width: 200px;
+    align-items: center;
+
+}
+
+.info .box {
+    width: 150px;
+    height: 150px;
+    border: solid black 3px;
+    border-radius: 10px;
+}
+
+.info .box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info p {
+    text-align: center;
+    width: 100%;
 }

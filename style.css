@@ -49,7 +49,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    margin: 100px;
+    padding: 100px;
     gap: 40px;
 }
 
@@ -130,7 +130,12 @@ header {
     justify-content: center;
     align-items: center;
     background-color: palevioletred;
-    height: 400px;
+}
+
+.testimonial .container {
+    margin: 100px;
+    display: flex;
+    flex-flow: column;
 }
 
 .testimonial #quote {

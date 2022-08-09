@@ -28,7 +28,7 @@ header {
     height: auto;
     flex-flow: column;
     background-color: palevioletred;
-    padding: 8px;
+    padding: 8px 8px 0px 8px;
 }
 
 .header-top {
@@ -50,6 +50,7 @@ header {
     justify-content: center;
     align-items: flex-end;
     margin: 100px;
+    gap: 40px;
 }
 
 .header-hero h2 {
